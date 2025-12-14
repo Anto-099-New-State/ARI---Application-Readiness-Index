@@ -1,7 +1,7 @@
 const fetch = require("node-fetch");
 
 const OPENAI_API_KEY = process.env.OPENAI_API_KEY;
-const OPENAI_MODEL = "gpt-4o-mini"; // fast + cheap + reliable
+const OPENAI_MODEL = "gpt-4o-mini"; 
 
 
 async function generateLLMExplanation(input) {
